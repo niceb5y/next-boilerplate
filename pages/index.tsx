@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Icon } from '@niceb5y/react-components'
 
 const Home = () => (
   <>
@@ -12,7 +13,7 @@ const Home = () => (
         href="https://github.com/niceb5y/next-boilerplate"
         className="btn btn-outline-primary"
       >
-        <span className="icon icon-github" /> Repo
+        <Icon name="github" /> Repo
       </a>
     </div>
   </>
