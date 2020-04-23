@@ -941,11 +941,12 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@niceb5y/react-components@^0.0.3":
-  version "0.0.3"
-  resolved "https://npm.pkg.github.com/download/@niceb5y/react-components/0.0.3/32136e17b828df711b6e82d477df952be495e613cedfd5bf9b487fc213659120#973988878c762d42a67f7419f135859cd07d9fa1"
-  integrity sha512-K4tkK59dqgbNRxzpWVpzBVdsQ+u4ijuj+8Qc7Ey43sO65XHZFi6Ven1brGtSgi8C7DscYi09hPIYD55CSklOww==
+"@niceb5y/react-components@^0.0.4":
+  version "0.0.4"
+  resolved "https://npm.pkg.github.com/download/@niceb5y/react-components/0.0.4/206787191a03b56d1c946a25ef65257f8a3f5df152129dad845d66060af7cd46#4d44860aa856b5edd7c5648c4f3c30dcd79cb5f3"
+  integrity sha512-xpTZbqV+Hp8QrA+3Z/EkgisxIuLsdU0aAxKWOt5bcqBjYsuk3J40Nxl/FGRnCNC7vu0Pbm3IO6SVgNet3JGmxw==
   dependencies:
+    classnames "^2.2.6"
     react "^16.13.1"
     react-dom "^16.13.1"
 
@@ -1743,6 +1744,11 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
 clone-deep@^4.0.1:
   version "4.0.1"

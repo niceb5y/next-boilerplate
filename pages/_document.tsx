@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { Base } from '@niceb5y/react-components'
+import { Base, Container } from '@niceb5y/react-components'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -13,9 +13,9 @@ class MyDocument extends Document {
         <Head />
         <Base />
         <body>
-          <div className="container">
+          <Container>
             <Main />
-          </div>
+          </Container>
           <NextScript />
         </body>
       </Html>
